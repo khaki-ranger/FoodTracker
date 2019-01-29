@@ -13,6 +13,7 @@
 		D10A38A721FE86D300457060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D10A38A621FE86D300457060 /* Assets.xcassets */; };
 		D10A38AA21FE86D300457060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D10A38A821FE86D300457060 /* LaunchScreen.storyboard */; };
 		D10A38B521FE86D300457060 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D10A38B421FE86D300457060 /* FoodTrackerTests.swift */; };
+		D1DAA6D121FFD8B80021A557 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1DAA6D021FFD8B80021A557 /* RatingControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		D10A38B021FE86D300457060 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D10A38B421FE86D300457060 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		D10A38B621FE86D300457060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1DAA6D021FFD8B80021A557 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				D10A389F21FE86D100457060 /* AppDelegate.swift */,
 				D10A38A121FE86D100457060 /* ViewController.swift */,
+				D1DAA6D021FFD8B80021A557 /* RatingControl.swift */,
 				D10A38A321FE86D100457060 /* Main.storyboard */,
 				D10A38A621FE86D300457060 /* Assets.xcassets */,
 				D10A38A821FE86D300457060 /* LaunchScreen.storyboard */,
@@ -198,6 +201,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D10A38A221FE86D100457060 /* ViewController.swift in Sources */,
+				D1DAA6D121FFD8B80021A557 /* RatingControl.swift in Sources */,
 				D10A38A021FE86D100457060 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
