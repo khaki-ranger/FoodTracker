@@ -11,10 +11,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Table View Controller-->
+        <!--Meal Table View Controller-->
         <scene sceneID="lpd-L0-fzQ">
             <objects>
-                <tableViewController id="n9T-R9-dyv" sceneMemberID="viewController">
+                <tableViewController id="n9T-R9-dyv" customClass="MealTableViewController" customModule="FoodTracker" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="90" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="Qcl-83-IMi">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -45,7 +45,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="mealLabel" destination="oCY-kZ-1c4" id="nj2-QA-TmZ"/>
+                                    <outlet property="nameLabel" destination="oCY-kZ-1c4" id="e97-DF-Iuc"/>
                                     <outlet property="photoImageView" destination="Lc9-7E-EpU" id="IZ0-N7-nA9"/>
                                     <outlet property="ratingControl" destination="gFa-7a-Bfm" id="LHD-jz-r7x"/>
                                 </connections>
