@@ -50,7 +50,16 @@ class MealViewController: UIViewController {
     // This method lets you configure a view controller before it's presented.
     
     @IBAction func cancel(_ sender: UIBarButtonItem) {
-        dismiss(animated: true, completion: nil)
+        // Depending on style of presentation (modal or push presentation), this view controller to be dismissed in two different ways.
+        let isPresentingIndAddMealMode = presentingViewController is UINavigationController
+        
+        if isPresentingIndAddMealMode {
+            dismiss(animated: true, completion: nil)
+        } else if let owingNavigationController = navigationController {
+            owingNavigationController.popViewController(animated: true)
+        } else {
+            fatalError("The MealViewController is not inside a navigation controller.")
+        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
